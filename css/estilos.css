@@ -68,3 +68,40 @@ ul li a {
     color: #000;
     font-weight: bold;
 }
+
+button {
+    background-color: #00f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100vw;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 50vw;
+    padding: 5rem;
+    gap: 2rem;
+}
+
+.content p {
+    text-align: center;
+}
+
+.image img {
+    width: 500px;
+    height: auto;
+}
